@@ -1,7 +1,7 @@
+from juego import Juego
 from carta import Carta
+from ma import Ma
+from baraja import Baraja
 
-nuevacarta = Carta("Corazones", "As")
-print(nuevacarta)
-
-carta2 = Carta("Picas", "Diamantes")
-print(carta2)
+nuevoJuego = Juego()
+nuevoJuego.jugar()
